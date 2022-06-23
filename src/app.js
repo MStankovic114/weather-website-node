@@ -46,8 +46,6 @@ app.get("/help", (req, res) => {
     name: "Milos Stankovic",
   });
 });
-cd;
-
 app.get("/weather", (req, res) => {
   if (!req.query.address) {
     return res.send({
